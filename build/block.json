@@ -1,0 +1,82 @@
+{
+  "apiVersion": 2,
+  "name": "lattice/product-tabs",
+  "title": "Lattice Product Tabs",
+  "category": "widgets",
+  "description": "A custom Gutenberg block with tabbed functionality.",
+  "icon": "columns",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "mediaId": {
+      "type": "number",
+      "default": 0
+    },
+    "tabs": {
+      "type": "array",
+      "default": [
+        {
+          "title": "",
+          "content": "",
+          "mediaUrl": "http://via.placeholder.com/400x200.png",
+          "mediaId": 0,
+          "tabBodyMediaId": 0,
+          "tabBodyMediaUrl": "http://via.placeholder.com/400x200.png",
+          "backgroundColor": "",
+          "contentHeading": "",
+          "contentCopy": "This is the content that should go in here"
+        },
+        {
+          "title": "",
+          "content": "",
+          "mediaUrl": "http://via.placeholder.com/400x200.png",
+          "mediaId": 0,
+          "tabBodyMediaId": 0,
+          "tabBodyMediaUrl": "http://via.placeholder.com/400x200.png",
+          "backgroundColor": "",
+          "contentHeading": "",
+          "contentCopy": "This is the content that should go in here"
+        },
+        {
+          "title": "",
+          "content": "",
+          "mediaUrl": "http://via.placeholder.com/400x200.png",
+          "mediaId": 0,
+          "tabBodyMediaId": 0,
+          "tabBodyMediaUrl": "http://via.placeholder.com/400x200.png",
+          "backgroundColor": "",
+          "contentHeading": "",
+          "contentCopy": "This is the content that should go in here"
+        },
+        {
+          "title": "",
+          "content": "",
+          "mediaUrl": "http://via.placeholder.com/400x200.png",
+          "mediaId": 0,
+          "tabBodyMediaId": 0,
+          "tabBodyMediaUrl": "http://via.placeholder.com/400x200.png",
+          "backgroundColor": "",
+          "contentHeading": "",
+          "contentCopy": "This is the content that should go in here"
+        },
+        {
+          "title": "",
+          "content": "",
+          "mediaUrl": "http://via.placeholder.com/400x200.png",
+          "mediaId": 0,
+          "tabBodyMediaId": 0,
+          "tabBodyMediaUrl": "http://via.placeholder.com/400x200.png",
+          "backgroundColor": "",
+          "contentHeading": "",
+          "contentCopy": "This is the content that should go in here"
+        }
+      ]
+    }
+  },
+  "textdomain": "latttice-product-tabs",
+  "editorScript": "file:./index.js",
+  "script": "file:./frontend.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
